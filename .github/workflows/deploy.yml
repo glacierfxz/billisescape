@@ -20,7 +20,7 @@ jobs:
           path: |
             resources/
             .hugo_cache/
-          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.md', '**/*.toml', '**/*.yaml', '**/*.json', 'assets/**/*', 'static/**/*',, 'layouts/**/*') }}
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.md', '**/*.toml', '**/*.yaml', '**/*.json', 'assets/**/*', 'static/**/*', 'layouts/**/*') }}
           restore-keys: |
             ${{ runner.os }}-hugo-
 
